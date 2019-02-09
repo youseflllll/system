@@ -27,7 +27,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
-const prefix =  '$';
+const prefix =  '@';
 var table = require('table').table
 var ti={}  
 ,spee={}
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 3000 ;
-    var setGame = ['$help','Bot By ZEGO'];
+    var setGame = ['@help','Bot By ZEGO'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3524,4 +3524,4 @@ client.on('guildMemberAdd', member => {
 return channel.send("")
     }
     )});
-client.login("NTQzNzM4NzA3MTE5OTY0MTcx.D0BOkg.xSTMoFG5BFnTCcnhvNvipwZMfd8")
+client.login("NTQzODQ4MDM4MDk2MTc1MTQ1.D0Chxg.SkvI_9iEBVi1cU9StSvJtAJtVI8")
